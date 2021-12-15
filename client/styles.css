@@ -14,7 +14,7 @@
   .title {
       margin-bottom: 20px;
       margin-left: 30px;
-      margin-top: 50px;
+      margin-top: 30px;
       font-size: 100px;
       color: white;
   }
@@ -31,8 +31,9 @@
   }
 
   .btn-con {
-      margin-top: 100px;
-      margin-left: 100px;
+      margin-top: 10px;
+      margin-left: 30px;
+
   }
 
   #facts-btn {
@@ -55,6 +56,13 @@
  }
 
  .fact-con {
-     margin-left: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
+ .booking-con {
+     margin-top: 100px;
+     color: white;
+     font-size: 60px;
  }
