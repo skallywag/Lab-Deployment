@@ -3,8 +3,8 @@ const path = require('path')
 
 const app = express()
 
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/client'))
+app.get('/js', function(req, res) {
+    res.sendFile(path.join(__dirname, '../client/main.js'))
 })
 
 
