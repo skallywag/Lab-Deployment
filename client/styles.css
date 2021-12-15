@@ -8,8 +8,53 @@
     top: 0;
     bottom: 0;
     z-index: -1;
+    opacity: 95%;
   }
 
   .title {
+      margin-bottom: 20px;
+      margin-left: 30px;
+      margin-top: 50px;
+      font-size: 100px;
       color: white;
   }
+
+  .description {
+      font-size: 18px;
+      color: white;
+  }
+
+  .p-con {
+        margin-left: 30px;
+        width: 40vw;
+        line-height: 25px;
+  }
+
+  .btn-con {
+      margin-top: 100px;
+      margin-left: 100px;
+  }
+
+  #facts-btn {
+      font-size: 40px;
+      height: 100px;
+      width: 150px;
+      color: violet;
+      background-color: blue;
+      border-radius: 10px;
+  }
+
+  #facts-btn:hover{
+      cursor: pointer;
+      background-color: purple;
+  }
+
+ #the-fact {
+     color: white;
+     font-size: 35px;
+ }
+
+ .fact-con {
+     margin-left: 300px;
+
+ }
