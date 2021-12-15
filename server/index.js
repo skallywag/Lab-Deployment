@@ -15,6 +15,10 @@ app.get('/css', function(req, res){
     res.sendFile(path.join(__dirname, '../client/styles.css'))
 })
 
+app.get('/css2', function(req, res){
+    res.sendFile(path.join(__dirname, '../client/reset.css'))
+})
+
 
 
 const port = process.env.PORT || 4005
